@@ -42,7 +42,8 @@
 
 <p>You'll see the menu:</p>
 
-<p><a href="http://ngeshlew.github.io/assets/img/javascripting-101.png" target="_blank">![Menu Javascripting 101](https://cloud.githubusercontent.com/assets/4710827/12478934/22f0c86a-c049-11e5-8967-4783b07be15b.png "Javascript 101")</a></p>
+![javascripting-101](https://cloud.githubusercontent.com/assets/4710827/12478934/22f0c86a-c049-11e5-8967-4783b07be15b.png)
+
 
 <p>Navigate the menu with the up &amp; down arrow keys. </p>
 
