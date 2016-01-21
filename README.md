@@ -42,7 +42,7 @@
 
 <p>You'll see the menu:</p>
 
-<p><a href="/sethvincent/javascripting/blob/master/screenshot.png" target="_blank"><img src="/sethvincent/javascripting/raw/master/screenshot.png" alt="javascripting screenshot" style="max-width:100%;"></a></p>
+<p><a href="http://ngeshlew.github.io/assets/img/javascripting-101.png" target="_blank"><img src="/sethvincent/javascripting/raw/master/screenshot.png" alt="javascripting screenshot" style="max-width:100%;"></a></p>
 
 <p>Navigate the menu with the up &amp; down arrow keys. </p>
 
