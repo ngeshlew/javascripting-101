@@ -48,12 +48,6 @@
 
 <p>Choose a challenge by hitting enter.</p>
 
-<h3><a id="user-content-take-a-look-at-this-gif-that-shows-the-first-challenge" class="anchor" href="#take-a-look-at-this-gif-that-shows-the-first-challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Take a look at this gif that shows the first challenge:</h3>
-
-<p><a href="/sethvincent/javascripting/blob/master/javascripting.gif" target="_blank"><img src="/sethvincent/javascripting/raw/master/javascripting.gif" alt="first challenge" style="max-width:100%;"></a></p>
-
-<p>In the gif I'm using the command line editor <code>nano</code> (<a href="https://github.com/sethvincent/dev-envs-book/blob/master/chapters/05-editors.md#nano">here are some basic usage tips for nano</a>).  </p>
-
 <p>You can use any editor you like. </p>
 
 <p><a href="http://atom.io">atom</a> or <a href="http://brackets.io/">brackets</a> or <a href="www.sublimetext.com/">sublime text</a>are all good options.</p>
