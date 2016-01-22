@@ -12,7 +12,6 @@
 
 <p>Install it from <a href="http://nodejs.org/download">nodejs.org/download</a></p>
 
-<p>On Windows and using v4 or v5 of Node.js? Make sure you are using at least 5.1.0, which provides a fix for a bug on Windows where you can't choose items in the menu.</p>
 
 <h3><a id="user-content-install-javascripting-with-npm" class="anchor" href="#install-javascripting-with-npm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install <code>javascripting</code> with <code>npm</code></h3>
 
@@ -58,19 +57,23 @@
 <p>MIT</p>
 </article>
 
-<article class="markdown-body entry-content" itemprop="mainContentOfPage"><h3>How to Test Using Jest</h3><div><p>Consider a scenario where you want to test the following <code>sum.js</code> file:</p><div class="prism language-javascript"><span class="token comment" spellcheck="true">// sum.js
-</span><span class="token keyword">function</span> <span class="token function">sum<span class="token punctuation">(</span></span>value1<span class="token punctuation">,</span> value2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  <span class="token keyword">return</span> value1 <span class="token operator">+</span> value2<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> sum<span class="token punctuation">;</span></div><p>We can get up and running with the following 4 steps:</p><ol><li><p>Create a directory <code>__tests__/</code> with a file <code>sum-test.js</code></p><div class="prism language-javascript"><span class="token comment" spellcheck="true">// __tests__/sum-test.js
-</span>jest<span class="token punctuation">.</span><span class="token function">dontMock<span class="token punctuation">(</span></span><span class="token string">'../sum'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<article class="markdown-body entry-content" itemprop="mainContentOfPage"><h3>How to Test Using Jest</h3><div><p>Consider a scenario where you want to test the following <code>sum.js</code> file:</p>
+<pre>// sum.js
+function sum (value1,value2 ){
+	return  value1 + value2;
+}
+module.exports = sum;
+</pre>
+<p>We can get up and running with the following 4 steps:</p><ol><li><p>Create a directory <code>__tests__/</code> with a file <code>sum-test.js</code></p>
+<pre>// __tests__/sum-test.js
+jest.dontMock ('../sum');
 
-<span class="token function">describe<span class="token punctuation">(</span></span><span class="token string">'sum'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
- <span class="token function">it<span class="token punctuation">(</span></span><span class="token string">'adds 1 + 2 to equal 3'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-   <span class="token keyword">var</span> sum <span class="token operator">=</span> <span class="token function">require<span class="token punctuation">(</span></span><span class="token string">'../sum'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-   <span class="token function">expect<span class="token punctuation">(</span></span><span class="token function">sum<span class="token punctuation">(</span></span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe<span class="token punctuation">(</span></span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
- <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></div></li><li><p>Run <code>npm install jest-cli --save-dev</code></p><p> Jest uses ES2015 features and requires a Node.js version of at least 4.0.0
+describe('sum',function()
+{	it('adds 1 + 2 to equal 3', function(){
+		var sum =require('../sum');
+		expect(sum(1,2)).toBe(3);});});
+</pre>
+<li><p>Run <code>npm install jest-cli --save-dev</code></p><p> Jest uses ES2015 features and requires a Node.js version of at least 4.0.0
  to run.</p></li><li><p>Add the following to your <code>package.json</code></p><div class="prism language-javascript"><span class="token punctuation">{</span>
  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
  <span class="token string">"scripts"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>

@@ -1,20 +1,16 @@
 {
-  "name": "javascripting-101",
+  "name": "karma-seed",
   "version": "1.0.0",
-  "description": " ",
-  "main": "accessing-array-values.js",
+  "description": "",
   "scripts": {
-    "test": "jest"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js",
+    "full-test": "NODE_ENV=test karma start karma.conf.js"
   },
-  "repository": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ngeshlew/javascripting-101/issues"
-  },
-  "homepage": "https://github.com/ngeshlew/javascripting-101#readme",
   "devDependencies": {
-    "jest-cli": "^0.8.2"
+    "jasmine-core": "^2.2.0",
+    "jest-cli": "^0.8.2",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5"
   }
 }
