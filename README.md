@@ -1,4 +1,4 @@
-[ ![Codeship Status for ngeshlew/javascripting-101](https://codeship.com/projects/a7d4cc20-a31a-0133-3d2b-5219d091b483/status?branch=master)](https://codeship.com/projects/129094) [![Build Status](https://travis-ci.org/ngeshlew/javascripting-101.svg?branch=master)](https://travis-ci.org/ngeshlew/javascripting-101)
+[![Build Status](https://travis-ci.org/ngeshlew/javascripting-101.svg?branch=master)](https://travis-ci.org/ngeshlew/javascripting-101)
 <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-javascripting" class="anchor" href="#javascripting" aria-hidden="true"><span class="octicon octicon-link"></span></a>JAVASCRIPTING 101</h1>
 <p>Author: <a href="https://github.com/sethvincent" target="_blank">Seth Vincent</a></p>
 <blockquote>
