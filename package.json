@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/ngeshlew/javascripting-101/issues"
   },
-  "homepage": "https://github.com/ngeshlew/javascripting-101#readme"
+  "homepage": "https://github.com/ngeshlew/javascripting-101#readme",
+  "devDependencies": {
+    "jest-cli": "^0.8.2"
+  }
 }
