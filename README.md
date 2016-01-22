@@ -74,10 +74,17 @@ describe('sum',function()
 		expect(sum(1,2)).toBe(3);});});
 </pre>
 <li><p>Run <code>npm install jest-cli --save-dev</code></p><p> Jest uses ES2015 features and requires a Node.js version of at least 4.0.0
- to run.</p></li><li><p>Add the following to your <code>package.json</code></p><div class="prism language-javascript"><span class="token punctuation">{</span>
- <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
- <span class="token string">"scripts"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-   <span class="token string">"test"</span><span class="token punctuation">:</span> <span class="token string">"jest"</span>
- <span class="token punctuation">}</span>
- <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-<span class="token punctuation">}</span></div></li><li><p>Run <code>npm test</code></p><div class="prism language-javascript"><span class="token punctuation">[</span>PASS<span class="token punctuation">]</span> __tests__<span class="token operator">/</span>sum<span class="token operator">-</span>test<span class="token punctuation">.</span>js <span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">.</span>015s<span class="token punctuation">)</span></div></li><li><p>Use the <code>--watch</code> option</p><div class="prism language-javascript">npm test <span class="token operator">--</span> <span class="token operator">--</span>watch</div></li></ol><p>This runs all test initially. To skip the initial test, add <code>skip</code> as a value:</p><div class="prism language-javascript">  npm test <span class="token operator">--</span> <span class="token operator">--</span>watch<span class="token operator">=</span>skip</div></div></article>
+ to run.</p></li><li><p>Add the following to your <code>package.json</code></p>
+ <pre>{..."scripts":
+ 	{"test":"jest"}
+ 	<...
+ 	}</pre>
+ 	</li>
+ <p>Run <code>npm test</code></p>
+ <pre>[PASS] __tests__/sum-test.js (0.015s)</pre></li>
+ <li><p>Use the <code>--watch</code> option</p>
+ <pre>npm test -- --watch
+ </pre>
+ </li></ol><p>This runs all test initially. To skip the initial test, add <code>skip</code> as a value:</p>
+ <pre> npm test -- --watch=skip
+ </pre></article>
