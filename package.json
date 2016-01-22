@@ -1,0 +1,20 @@
+{
+  "name": "javascripting-101",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "accessing-array-values.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngeshlew/javascripting-101/issues"
+  },
+  "homepage": "https://github.com/ngeshlew/javascripting-101#readme",
+  "devDependencies": {
+    "jest-cli": "^0.8.2"
+  }
+}

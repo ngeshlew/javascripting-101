@@ -1,5 +1,6 @@
+//function.js
 var food;
 function eat (food){
 	return food + ' tasted really good.';
 }
-console.log(eat('bananas'));
+module.exports = eat;
