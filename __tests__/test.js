@@ -26,13 +26,3 @@ describe('access', function() {
    expect(access()).toBe('pizza');
  });
 });
-
-// __tests__/test.js
-jest.dontMock('../array-filtering');
-
-describe('filter_array', function() {
- it('should print even numbers', function() {
-   var filter_array = require('../array-filtering');
-   expect(filter_array()).toBe([ 2, 4, 6, 8, 10 ] );
- });
-});
