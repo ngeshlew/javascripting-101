@@ -1,3 +1,6 @@
 var food = ['apple', 'pizza', 'peer'];
+function access (){
+	return food[1];
+}
 
-console.log(food[1]);
+module.exports = access;
