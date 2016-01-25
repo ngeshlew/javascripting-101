@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1453706080448" clover="3.2.0">
+	<project timestamp="1453706080448"  name="All Files" >
+		<metrics statements="11"  coveredstatements="11"  conditionals="0"  coveredconditionals="0"  methods="3"  coveredmethods="3"  elements="14"  coveredelements="14"  complexity="0"  packages="1"  files="3"  classes="3"  loc="17"  ncloc="17" />
+		<package name="javascripting-101" >
+			<metrics statements="11"  coveredstatements="11"  conditionals="0"  coveredconditionals="0"  methods="3"  coveredmethods="3" />
+			<file name="accessing-array-values.js"  path="/Users/ngeshlew/Documents/job/Projects/javascripting-101/accessing-array-values.js" >
+				<metrics statements="4"  coveredstatements="4"  conditionals="0"  coveredconditionals="0"  methods="1"  coveredmethods="1" />
+				<line num="1"  count="1"  type="stmt" />
+				<line num="2"  count="1"  type="stmt" />
+				<line num="3"  count="1"  type="stmt" />
+				<line num="6"  count="1"  type="stmt" />
+			</file>
+			<file name="functions.js"  path="/Users/ngeshlew/Documents/job/Projects/javascripting-101/functions.js" >
+				<metrics statements="4"  coveredstatements="4"  conditionals="0"  coveredconditionals="0"  methods="1"  coveredmethods="1" />
+				<line num="2"  count="1"  type="stmt" />
+				<line num="3"  count="1"  type="stmt" />
+				<line num="4"  count="1"  type="stmt" />
+				<line num="6"  count="1"  type="stmt" />
+			</file>
+			<file name="sum.js"  path="/Users/ngeshlew/Documents/job/Projects/javascripting-101/sum.js" >
+				<metrics statements="3"  coveredstatements="3"  conditionals="0"  coveredconditionals="0"  methods="1"  coveredmethods="1" />
+				<line num="2"  count="1"  type="stmt" />
+				<line num="3"  count="1"  type="stmt" />
+				<line num="5"  count="1"  type="stmt" />
+			</file>
+		</package>
+	</project>
+</coverage>
